@@ -10,13 +10,6 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.classList.toggle('fa-times');
 });
 
-/*window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
-        document.querySelector("header").style.backgroundColor = "rgb(31, 30, 30)";
-    } else {
-        document.querySelector("header").style.backgroundColor = "transparent";
-    }
-});*/
 window.addEventListener('scroll', () => {
     scrollY > 0 ? header.classList.add('active') : header.classList.remove('active')
 });
